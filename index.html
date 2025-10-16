@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreshMart - Fresh Groceries Delivered Fast</title>
+    <meta name="description"
+        content="Get farm-fresh groceries delivered to your doorstep in as little as 30 minutes. Quality you can trust, convenience you'll love." />
+    <!-- Dev helper: show uncaught errors and promise rejections inside the page so they aren't hidden as a white screen -->
+    <script>
+        (function () {
+            function showError(obj) {
+                try {
+                    var text = typeof obj === 'string' ? obj : (obj && (obj.stack || obj.message)) || JSON.stringify(obj);
+                } catch (e) { text = String(obj); }
+                document.body.innerHTML = '<div style="padding:20px;background:#fff3f3;color:#b71c1c;font-family:system-ui,Segoe UI,Roboto,Arial"><h2>Runtime error</h2><pre style="white-space:pre-wrap">' +
+                    text.replace(/</g, '&lt;') + '</pre></div>';
+                console.error(obj);
+            }
+            window.addEventListener('error', function (e) { showError(e.error || e.message || e); });
+            window.addEventListener('unhandledrejection', function (e) { showError(e.reason || e); });
+            window.__showRuntimeError = showError; // optional manual hook
+        })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-ByC7vFzj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CVs4UPTZ.css">
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>

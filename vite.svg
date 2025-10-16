@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreshMart - Fresh Groceries Delivered Fast</title>
+    <meta name="description" content="Get farm-fresh groceries delivered to your doorstep in as little as 30 minutes. Quality you can trust, convenience you'll love." />
+    <script type="module" crossorigin src="/assets/index-ByC7vFzj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CVs4UPTZ.css">
+  <script async src="https://bolt.new/badge.js?s=60f9ee0d-b7a1-41fd-8c95-fb3a66fc1be6"></script></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
